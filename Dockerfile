@@ -1,3 +1,3 @@
-FROM docker-local-2.homeawaycorp.com/ha-docker/minijava:1.8.0_112-master
+FROM maven/3-jdk-8
 COPY . /app
 ENTRYPOINT ["./app/run_tests.sh"]
