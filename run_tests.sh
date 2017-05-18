@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Running TESTNG tests"
-mvn surefire-report:report
+mvn -q surefire-report:report
